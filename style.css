@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#tune{
+    background-image: url('images/showcase.jpeg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tune,#world{
+    background-size: cover;
+    color:white;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+nav{
+    background-color: rgb(31, 29, 29);
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+li a{
+    display: block;
+    padding: 5px 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+li{
+   float:inline-start;
+}
+li a:hover{
+    background-color: black;
+}
+#tune h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 60px;
+    
+}
+#tune p{
+    font-size: 40px;
+}
+
+    
+#music{
+    background-color:  #212429;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-weight:lighter;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+   
+}
+h1{
+    padding: 10px;
+    font-size: 40px;
+    font-weight:400;
+    font-family:'Lato', sans-serif;
+
+
+}
+h3{
+    font-size: 40px;
+    font-weight:bolder;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:30px;
+    font-weight:lighter;
+}
+
+
+.musicbutton{
+    background-color: #b50319;
+    color: white;
+    padding:16px 20px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+img{
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.musicbutton:hover{
+    background-color: white;
+    color:#b50319;
+    
+}
+
+#movie{
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.moviebutton {
+    background-color: #143f85;
+    color: whitesmoke;
+    border-color: #143f85;
+    text-align: center;
+    padding: 16px;
+    font-size: unset;
+}
+.moviebutton:hover{
+    background-color: whitesmoke;
+    color: #143f85;
+}
+li{
+    display: inline-block;
+}
+.immg {
+    width:initial;
+  
+}
+#world{
+    background-image: url('images/section-bg.jpeg');
+}
+
+footer{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #212429;
+    color: white;
+}
